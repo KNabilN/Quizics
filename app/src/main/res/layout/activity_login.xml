@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".Main2Activity">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/t"
+            android:layout_margin="16dp"
+            android:background="@drawable/shape"
+            android:src="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/usereditli"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="User Phone"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="160dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/passeditli"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="160dp" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp">
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:text="Sign up"
+                tools:layout_editor_absoluteX="240dp"
+                tools:layout_editor_absoluteY="307dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape"
+            android:text="Log in"
+            android:textColor="#ffffff"
+
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="401dp" />
+    </LinearLayout>
+</ScrollView>

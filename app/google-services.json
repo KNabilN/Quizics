@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "965366319598",
+    "firebase_url": "https://physix-851d3.firebaseio.com",
+    "project_id": "physix-851d3",
+    "storage_bucket": "physix-851d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965366319598:android:df39304f956976a2",
+        "android_client_info": {
+          "package_name": "com.nawa.android.physix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965366319598-rjnlcli2do02cd7sk57g4l8u1h0spi86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nawa.android.physix",
+            "certificate_hash": "508dc32e19a6ce0288640617ca39d325159db08c"
+          }
+        },
+        {
+          "client_id": "965366319598-gido0t6bd034dnrcp8fm7qjd4ag3n719.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkeZ-lTL6dUbbji8AB_74O-0LiU9yfZZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965366319598-gido0t6bd034dnrcp8fm7qjd4ag3n719.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

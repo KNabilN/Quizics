@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentQuiz">
+
+    <LinearLayout
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/text_view_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="00:00"
+            android:textColor="@android:color/black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/black" />
+
+        <Button
+            android:id="@+id/link_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/edittext"
+            android:text="Open Quiz"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Q1:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/a1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Q2:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/a2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Q3:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/a3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Q4:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/a4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Q5:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/a5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Q6:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/a6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Q7:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/a7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Q8:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/a8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Q9:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/a9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Q10:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/a10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:hint=""
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/team_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/edittext"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Confirm"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView><!--&gt;--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:orientation="vertical">--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context=".StudentQuiz"--><!--android:orientation="vertical"--><!--android:padding="16dp">-->
+
+    <!--<TextView--><!--android:id="@+id/one_quiz_head"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="quiz head"--><!--android:textSize="24sp"--><!--android:textColor="#000000"--><!--android:textAlignment="center"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/A"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="A"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/B"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="B"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/C"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="C"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+
+    <!--</LinearLayout>--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context=".StudentQuiz"--><!--android:orientation="vertical"--><!--android:padding="16dp">-->
+
+    <!--<TextView--><!--android:id="@+id/two_quiz_head"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="quiz head"--><!--android:textSize="24sp"--><!--android:textColor="#000000"--><!--android:textAlignment="center"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/two_A"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="A"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/two_B"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="B"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/two_C"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="C"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+
+    <!--</LinearLayout>--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context=".StudentQuiz"--><!--android:orientation="vertical"--><!--android:padding="16dp">-->
+
+    <!--<TextView--><!--android:id="@+id/three_quiz_head"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="quiz head"--><!--android:textSize="24sp"--><!--android:textColor="#000000"--><!--android:textAlignment="center"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/three_A"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="A"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/three_B"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="B"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/three_C"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="C"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+
+    <!--</LinearLayout>--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context=".StudentQuiz"--><!--android:orientation="vertical"--><!--android:padding="16dp">-->
+
+    <!--<TextView--><!--android:id="@+id/four_quiz_head"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="quiz head"--><!--android:textSize="24sp"--><!--android:textColor="#000000"--><!--android:textAlignment="center"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/four_A"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="A"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/four_B"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="B"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/four_C"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="C"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+
+    <!--</LinearLayout>--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context=".StudentQuiz"--><!--android:orientation="vertical"--><!--android:padding="16dp">-->
+
+    <!--<TextView--><!--android:id="@+id/five_quiz_head"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="quiz head"--><!--android:textSize="24sp"--><!--android:textColor="#000000"--><!--android:textAlignment="center"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/five_A"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="A"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/five_B"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="B"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/five_C"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="C"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+
+    <!--</LinearLayout>--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context=".StudentQuiz"--><!--android:orientation="vertical"--><!--android:padding="16dp">-->
+
+    <!--<TextView--><!--android:id="@+id/six_quiz_head"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="quiz head"--><!--android:textSize="24sp"--><!--android:textColor="#000000"--><!--android:textAlignment="center"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/six_A"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="A"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/six_B"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="B"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/six_C"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="C"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+
+    <!--</LinearLayout>--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context=".StudentQuiz"--><!--android:orientation="vertical"--><!--android:padding="16dp">-->
+
+    <!--<TextView--><!--android:id="@+id/seven_quiz_head"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="quiz head"--><!--android:textSize="24sp"--><!--android:textColor="#000000"--><!--android:textAlignment="center"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/seven_A"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="A"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/seven_B"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="B"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/seven_C"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="C"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+
+    <!--</LinearLayout>--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context=".StudentQuiz"--><!--android:orientation="vertical"--><!--android:padding="16dp">-->
+
+    <!--<TextView--><!--android:id="@+id/eight_quiz_head"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="quiz head"--><!--android:textSize="24sp"--><!--android:textColor="#000000"--><!--android:textAlignment="center"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/eight_A"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="A"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/eight_B"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="B"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/eight_C"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="C"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+
+    <!--</LinearLayout>--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context=".StudentQuiz"--><!--android:orientation="vertical"--><!--android:padding="16dp">-->
+
+    <!--<TextView--><!--android:id="@+id/nine_quiz_head"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="quiz head"--><!--android:textSize="24sp"--><!--android:textColor="#000000"--><!--android:textAlignment="center"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/nine_A"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="A"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/nine_B"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="B"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/nine_C"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="C"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+
+    <!--</LinearLayout>--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context=".StudentQuiz"--><!--android:orientation="vertical"--><!--android:padding="16dp">-->
+
+    <!--<TextView--><!--android:id="@+id/ten_quiz_head"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="quiz head"--><!--android:textSize="24sp"--><!--android:textColor="#000000"--><!--android:textAlignment="center"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/ten_A"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="A"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/ten_B"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="B"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<RadioButton--><!--android:id="@+id/ten_C"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="C"--><!--android:textColor="#000000"--><!--android:textSize="18sp"/>-->
+
+    <!--<Button--><!--android:id="@+id/Confirm"--><!--android:textColor="#ffffff"--><!--android:text="Confirm"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:background="@drawable/button"--><!--android:layout_gravity="center"/>--><!--<Button--><!--android:id="@+id/show"--><!--android:textColor="#ffffff"--><!--android:text="Results"--><!--android:layout_marginTop="18dp"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:background="@drawable/button"--><!--android:layout_gravity="center"--><!--android:visibility="gone"/>-->
+
+    <!--</LinearLayout>--><!--</LinearLayout>--><!--</ScrollView>-->

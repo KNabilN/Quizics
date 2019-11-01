@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/admin_codeE"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="18dp"
+            android:hint="Quiz Code"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/image"
+            android:cropToPadding="false"
+            android:scaleType="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            />
+        <EditText
+            android:id="@+id/admin_quesE"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="18dp"
+            android:hint="Question"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/admin_A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:hint="Answer"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="B"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/admin_B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:hint="Answer"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="C"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/admin_C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:hint="Answer"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="D"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/admin_D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:hint="Answer"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="E"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/admin_E"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:hint="Answer"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/minutes"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="00"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColorHint="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=":"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/seconds"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="00"
+                android:textAlignment="center"
+                android:textColorHint="@android:color/black"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/admin_quizB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Enter"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reg_password" />
+
+
+    </LinearLayout>
+</ScrollView>
